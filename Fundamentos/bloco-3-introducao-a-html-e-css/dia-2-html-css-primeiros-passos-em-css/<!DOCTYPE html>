@@ -8,12 +8,19 @@
         65px
     }
     h1 {
-        color: orange
-    } 
-    body {
-      background-color: wheat; 
+        color: orange    
     }
-    
+    {
+      font-family: sans-serif;
+    }
+    body {
+      background-color: wheat;
+      font-size: 16x; 
+    }
+    p {
+      font-weight: 600px;
+      font-size: 3em;
+    }
     </style>
   </head>
   <body>
