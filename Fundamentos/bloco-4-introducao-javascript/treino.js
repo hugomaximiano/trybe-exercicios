@@ -99,3 +99,16 @@ let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 for (let name of names) {
   console.log(name);
 }
+
+
+
+// Corretor MEGA SENA
+
+let lotteryNumbers = [10, 12, 14, 32, 33, 34];
+for (let index = 0; index < lotteryNumbers.length; index++) {
+    console.log = (lotteryNumbers[index]);    
+}
+console.log("Quantos numeros jogados", lotteryNumbers)
+
+
+console.log (Math.random()*60)
