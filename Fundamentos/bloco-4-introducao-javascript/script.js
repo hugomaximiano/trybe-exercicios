@@ -1,9 +1,4 @@
-const a = 1;
-const b = 2; 
-     
-console.log(a + b)
-console.log(a - b)
-console.log(a * b)
-console.log(a / b)
-console.log(a % b)
-    
+let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+
+console.log(tasksList.length);
+// 3
