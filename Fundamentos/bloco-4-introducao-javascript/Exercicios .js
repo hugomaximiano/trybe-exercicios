@@ -67,3 +67,16 @@ console.log(biggerNumber);
 
 
 
+//Exercicio 6
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let impar= numbers[0];
+
+for (let index = 1; index < numbers.length; index+=1) {
+    if (biggerNumber < numbers[index]){
+biggerNumber .push = numbers[index];
+    }   
+}
+console.log(biggerNumber);
+
+
