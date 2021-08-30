@@ -17,6 +17,9 @@ let car = {
   }
 
   console.log('A jogadora ' + player.nome + player.lastName + ' tem ' + player.age + ' anos de idade.');
+
   console.log('A jogadora ' + player.nome + player.lastName + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes, nos anos de ' + player.bestInTheWorld +'.');
 
+  console.log('A jogadora ' + player.nome + player.lastName + ' possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver);
 
+//A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
