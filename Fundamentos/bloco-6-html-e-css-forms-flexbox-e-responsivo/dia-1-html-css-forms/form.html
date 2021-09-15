@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <Form:get>
+      <fieldset>
+        <label for="">Nome Completo:</label>
+        <input type="text" name="nome" id="nome-completo" maxlength="50" placeholder="Digite aqui seu nome completo" required>
+        <label for="">E-mail</label>
+        <input type="email" name="email" id="input-email" maxlength="50" placeholder="Digite aqui seu e-mail">
+        <label for=""> CPF</label>
+        <input type="number" name="cpf" id="cpf" maxlength="11" placeholder="Digite aqui seu CPF" required>
+        <label for="">Endereço</label>
+        <input type="text" name="endereço" id="endereço" maxlength="200" placeholder="Digite aqui seu endereço" required>
+        <label for="">Cidade</label>
+        <input type="text" name="cidade" id="cidade" maxlength="28" placeholder="Digiti aqui a cidade onde mora">
+        <label for="">Estado</label>
+        <select name="estado" id="estado"></select>
+
+      </fieldset>
+    </Form:get>    
+</body>
+</html>
